@@ -5,8 +5,47 @@
   border: 1px solid rgba(255, 255, 255, 0.064);
 }
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8);
-  }
-.nav-link{
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8);
+}
+.nav-link {
+  color: white;
+}
+.imgKids {
+  display: block;
+  width: 4vw;
+}
+.btnPropic{
+    padding: 0;
+    background-color: none;
+    display: block;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-text {
+    visibility: hidden;
+}
+.dropdown-toggle[aria-expanded="true"] .dropdown-text {
+    visibility: visible;
+}
+.genere{
+    width: 90%;
+    margin: 0 auto;
+    height: 4vh;
+}
+h1, h2{
     color: white;
+    display: inline;
+}
+.btnGenres{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.row{
+    margin-top: 5vw;
+}
+.carousel-item img{
+    margin-top: 2vw;
+}
+@media screen and (min-width: 992) {
 }
